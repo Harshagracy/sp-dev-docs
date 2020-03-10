@@ -246,7 +246,7 @@ To associate the custom dialog box with your custom ListView Command Set, add th
 
 ## Test the dialog box in your tenant
 
-1. Open the **serve.json** file in the **./config/** folder and update the current settings in the file. This file is used to make debugging on SharePoint Framework Extensions easier. You can update the file content to match your own tenant and site details where you want to test your extension. The key value to update is the `pageUrl` property in the json definition to match your own tenant.
+1. Open the **serve.json** file in the **./config/** folder and update the current settings in the file. This file is used to make debugging on SharePoint Framework Extensions easier. You can update the file content to match your own tenant and site details where you want to test your extension. The key value to update is the `pageUrl` property in the JSON definition to match your own tenant.
 
 2. Update `pageUrl` to point to a list URL where you want to test the dialog functionality.
 
